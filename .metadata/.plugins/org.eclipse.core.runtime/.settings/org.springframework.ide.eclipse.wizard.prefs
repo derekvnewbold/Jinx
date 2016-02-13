@@ -1,0 +1,17 @@
+eclipse.preferences.version=1
+org.springframework.ide.eclipse.wizard.gettingstarted.boot.PopularityTracker.cloud-aws=1
+org.springframework.ide.eclipse.wizard.gettingstarted.boot.PopularityTracker.cloud-aws-jdbc=1
+org.springframework.ide.eclipse.wizard.gettingstarted.boot.PopularityTracker.data-mongodb=1
+org.springframework.ide.eclipse.wizard.gettingstarted.boot.PopularityTracker.jersey=1
+org.springframework.ide.eclipse.wizard.gettingstarted.boot.PopularityTracker.web=1
+org.springframework.ide.eclipse.wizard.gettingstarted.boot.PreferredSelections.artifactId=jinx
+org.springframework.ide.eclipse.wizard.gettingstarted.boot.PreferredSelections.bootVersion=1.3.2.RELEASE
+org.springframework.ide.eclipse.wizard.gettingstarted.boot.PreferredSelections.description=Jinx project
+org.springframework.ide.eclipse.wizard.gettingstarted.boot.PreferredSelections.groupId=com.jinx
+org.springframework.ide.eclipse.wizard.gettingstarted.boot.PreferredSelections.javaVersion=1.8
+org.springframework.ide.eclipse.wizard.gettingstarted.boot.PreferredSelections.language=java
+org.springframework.ide.eclipse.wizard.gettingstarted.boot.PreferredSelections.name=Jinx
+org.springframework.ide.eclipse.wizard.gettingstarted.boot.PreferredSelections.packageName=com.jinx
+org.springframework.ide.eclipse.wizard.gettingstarted.boot.PreferredSelections.packaging=war
+org.springframework.ide.eclipse.wizard.gettingstarted.boot.PreferredSelections.type=MAVEN
+org.springframework.ide.eclipse.wizard.gettingstarted.boot.PreferredSelections.version=0.0.1

@@ -1,0 +1,5 @@
+12-Feb-2016 21:11:57.590 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Spring WebApplicationInitializers detected on classpath: [org.springframework.boot.autoconfigure.jersey.JerseyAutoConfiguration$JerseyWebApplicationInitializer@48d79213, com.jinx.ServletInitializer@ac83e5d, org.glassfish.jersey.server.spring.SpringWebApplicationInitializer@4946d3f5]
+12-Feb-2016 21:11:59.797 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+12-Feb-2016 21:12:01.762 INFO [tomcat-http--1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcherServlet'
+12-Feb-2016 21:33:19.477 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+12-Feb-2016 21:33:19.477 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext

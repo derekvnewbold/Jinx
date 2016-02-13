@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65B690721C6EE64C00D5174E /* JinxSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 65B690711C6EE64C00D5174E /* JinxSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65B690791C6EE64C00D5174E /* JinxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B6906E1C6EE64C00D5174E /* JinxSDK.framework */; };
+		65B6907E1C6EE64C00D5174E /* JinxSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B6907D1C6EE64C00D5174E /* JinxSDKTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65B6907A1C6EE64C00D5174E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65B690651C6EE64C00D5174E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65B6906D1C6EE64C00D5174E;
+			remoteInfo = JinxSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65B6906E1C6EE64C00D5174E /* JinxSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JinxSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B690711C6EE64C00D5174E /* JinxSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JinxSDK.h; sourceTree = "<group>"; };
+		65B690731C6EE64C00D5174E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65B690781C6EE64C00D5174E /* JinxSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JinxSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B6907D1C6EE64C00D5174E /* JinxSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JinxSDKTests.swift; sourceTree = "<group>"; };
+		65B6907F1C6EE64C00D5174E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65B6906A1C6EE64C00D5174E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B690751C6EE64C00D5174E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B690791C6EE64C00D5174E /* JinxSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65B690641C6EE64C00D5174E = {
+			isa = PBXGroup;
+			children = (
+				65B690701C6EE64C00D5174E /* JinxSDK */,
+				65B6907C1C6EE64C00D5174E /* JinxSDKTests */,
+				65B6906F1C6EE64C00D5174E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65B6906F1C6EE64C00D5174E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65B6906E1C6EE64C00D5174E /* JinxSDK.framework */,
+				65B690781C6EE64C00D5174E /* JinxSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65B690701C6EE64C00D5174E /* JinxSDK */ = {
+			isa = PBXGroup;
+			children = (
+				65B690711C6EE64C00D5174E /* JinxSDK.h */,
+				65B690731C6EE64C00D5174E /* Info.plist */,
+			);
+			path = JinxSDK;
+			sourceTree = "<group>";
+		};
+		65B6907C1C6EE64C00D5174E /* JinxSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				65B6907D1C6EE64C00D5174E /* JinxSDKTests.swift */,
+				65B6907F1C6EE64C00D5174E /* Info.plist */,
+			);
+			path = JinxSDKTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		65B6906B1C6EE64C00D5174E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B690721C6EE64C00D5174E /* JinxSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		65B6906D1C6EE64C00D5174E /* JinxSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65B690821C6EE64C00D5174E /* Build configuration list for PBXNativeTarget "JinxSDK" */;
+			buildPhases = (
+				65B690691C6EE64C00D5174E /* Sources */,
+				65B6906A1C6EE64C00D5174E /* Frameworks */,
+				65B6906B1C6EE64C00D5174E /* Headers */,
+				65B6906C1C6EE64C00D5174E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JinxSDK;
+			productName = JinxSDK;
+			productReference = 65B6906E1C6EE64C00D5174E /* JinxSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		65B690771C6EE64C00D5174E /* JinxSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65B690851C6EE64C00D5174E /* Build configuration list for PBXNativeTarget "JinxSDKTests" */;
+			buildPhases = (
+				65B690741C6EE64C00D5174E /* Sources */,
+				65B690751C6EE64C00D5174E /* Frameworks */,
+				65B690761C6EE64C00D5174E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65B6907B1C6EE64C00D5174E /* PBXTargetDependency */,
+			);
+			name = JinxSDKTests;
+			productName = JinxSDKTests;
+			productReference = 65B690781C6EE64C00D5174E /* JinxSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65B690651C6EE64C00D5174E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jinx Interactive";
+				TargetAttributes = {
+					65B6906D1C6EE64C00D5174E = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = HR5B3X5WC3;
+					};
+					65B690771C6EE64C00D5174E = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 65B690681C6EE64C00D5174E /* Build configuration list for PBXProject "JinxSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 65B690641C6EE64C00D5174E;
+			productRefGroup = 65B6906F1C6EE64C00D5174E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65B6906D1C6EE64C00D5174E /* JinxSDK */,
+				65B690771C6EE64C00D5174E /* JinxSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65B6906C1C6EE64C00D5174E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B690761C6EE64C00D5174E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65B690691C6EE64C00D5174E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B690741C6EE64C00D5174E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B6907E1C6EE64C00D5174E /* JinxSDKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65B6907B1C6EE64C00D5174E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65B6906D1C6EE64C00D5174E /* JinxSDK */;
+			targetProxy = 65B6907A1C6EE64C00D5174E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		65B690801C6EE64C00D5174E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		65B690811C6EE64C00D5174E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65B690831C6EE64C00D5174E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JinxSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinx.JinxSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		65B690841C6EE64C00D5174E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JinxSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinx.JinxSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		65B690861C6EE64C00D5174E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JinxSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinx.JinxSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		65B690871C6EE64C00D5174E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JinxSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinx.JinxSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65B690681C6EE64C00D5174E /* Build configuration list for PBXProject "JinxSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65B690801C6EE64C00D5174E /* Debug */,
+				65B690811C6EE64C00D5174E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65B690821C6EE64C00D5174E /* Build configuration list for PBXNativeTarget "JinxSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65B690831C6EE64C00D5174E /* Debug */,
+				65B690841C6EE64C00D5174E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65B690851C6EE64C00D5174E /* Build configuration list for PBXNativeTarget "JinxSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65B690861C6EE64C00D5174E /* Debug */,
+				65B690871C6EE64C00D5174E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65B690651C6EE64C00D5174E /* Project object */;
+}

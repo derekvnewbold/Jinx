@@ -1,0 +1,131 @@
+package com.jinx.offer;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestHeader;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.jinx.location.Location;
+import com.jinx.location.LocationOffers;
+
+@RestController
+@RequestMapping("/offer")
+public class OfferController {
+	// Defining as static for now.  Not scalable, but okay for POC
+	private static HashMap<Long, LocationOffers> offersMap = new HashMap<Long, LocationOffers>();
+	
+	static {
+		//String host = "http://newboldhome.dyndns.org";
+		//String host = "http://localhost:8080";
+		
+		// Location 1
+		LocationOffers locationOffers = new LocationOffers();
+		ArrayList<Offer> offerList = locationOffers.getOfferList();
+		Location location = new Location();
+		location.setId(1);
+		location.setBeaconMajor(1);
+		location.setBeaconMinor(1);
+		location.setName("Free-Style Salon");
+		locationOffers.setLocation(location);
+		offersMap.put(location.getId(), locationOffers);
+		
+		Offer offer = new Offer();
+		offer.setId(1);
+		offer.setLocation(location);
+		offer.setDuration(10);
+    	Content content = new Content();
+    	content.setId(1);
+    	content.setTvImgURL("/img/bmw.jpg");
+    	offer.setContent(content);
+    	offerList.add(offer);
+		
+		offer = new Offer();
+		offer.setId(2);
+		offer.setLocation(location);
+		offer.setDuration(15);
+    	content = new Content();
+    	content.setId(2);
+    	content.setTvImgURL("/img/gucci.jpg");
+    	offer.setContent(content);
+    	offerList.add(offer);
+
+		offer = new Offer();
+		offer.setId(3);
+		offer.setLocation(location);
+		offer.setDuration(20);
+    	content = new Content();
+    	content.setId(3);
+    	content.setTvImgURL("/img/Hawaii.jpg");
+    	offer.setContent(content);
+    	offerList.add(offer);
+
+    	// Location 2
+		locationOffers = new LocationOffers();
+		offerList = locationOffers.getOfferList();
+    	location = new Location();
+		location.setId(2);
+		location.setBeaconMajor(1);
+		location.setBeaconMinor(2);
+		location.setName("World Salon");
+		locationOffers.setLocation(location);
+		offersMap.put(location.getId(), locationOffers);
+
+		offer = new Offer();
+		offer.setId(4);
+		offer.setLocation(location);
+		offer.setDuration(10);
+    	content = new Content();
+    	content.setId(4);
+    	content.setTvImgURL("/img/blonde.jpg");
+    	offer.setContent(content);
+    	offerList.add(offer);
+
+		offer = new Offer();
+		offer.setId(5);
+		offer.setLocation(location);
+		offer.setDuration(15);
+    	content = new Content();
+    	content.setId(5);
+    	content.setTvImgURL("/img/RealEstate.png");
+    	offer.setContent(content);
+    	offerList.add(offer);
+	}
+
+    @RequestMapping("locationFromBeacon/{beaconMajor}/{beaconMinor}")
+    public @ResponseBody Location getLocation(@PathVariable Long beaconMajor, @PathVariable Long beaconMinor) {
+    	for (LocationOffers locationOffer : offersMap.values()) {
+    		if(locationOffer.getLocation().getBeaconMajor()==beaconMajor &&
+    		   locationOffer.getLocation().getBeaconMinor()==beaconMinor) {
+    			return locationOffer.getLocation();
+    		}
+    	}
+    	return null;
+    }
+    
+    @RequestMapping("current/{locationId}")
+    public @ResponseBody Offer getCurrentOffer(@RequestHeader ("host") String hostName, @PathVariable Long locationId) {
+    	LocationOffers locationOffers = offersMap.get(locationId);
+    	if(locationOffers==null) {
+    		System.out.println("Current offer requested for invalid locationId " + locationId);
+    	} else {
+	    	ArrayList<Offer> offerList = locationOffers.getOfferList();
+	    	if(System.currentTimeMillis() > locationOffers.getNextChangeTime()) {
+	    		locationOffers.setCurrentIndex((locationOffers.getCurrentIndex()==offerList.size()-1) ? 0 : locationOffers.getCurrentIndex()+1);
+	        	Offer offer = offerList.get(locationOffers.getCurrentIndex()); 
+	        	locationOffers.setNextChangeTime(System.currentTimeMillis() + (offer.getDuration() * 1000));
+	    	} 
+	    	
+	    	Offer offer = offerList.get(locationOffers.getCurrentIndex());
+	    	if(!offer.getContent().getTvImgURL().startsWith("http://")) offer.getContent().setTvImgURL("http://"+hostName+offer.getContent().getTvImgURL());
+	    	offer.setRemainingTime((locationOffers.getNextChangeTime()-System.currentTimeMillis())/1000);
+	    	System.out.println("Current offer requested [locationId = " + locationId + ", offerId = " + offer.getId() + "]");
+	
+	        return offer;
+    	}
+    	return null;
+    }
+}

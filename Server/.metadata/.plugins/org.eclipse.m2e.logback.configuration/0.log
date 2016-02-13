@@ -1,0 +1,16 @@
+2016-02-12 21:08:11,011 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.jinx:jinx:0.0.1 @ /Users/Derek/Dropbox/Projects/Jinx/Server/Jinx/pom.xml.
+2016-02-12 21:08:13,888 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-12 21:08:13,892 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-02-12 21:08:13,900 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 24 resources
+2016-02-12 21:08:13,942 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-12 21:08:13,942 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Derek/Dropbox/Projects/Jinx/Server/Jinx/src/test/resources
+2016-02-12 21:08:17,131 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-12 21:08:17,135 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-02-12 21:08:17,137 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 24 resources
+2016-02-12 21:08:17,165 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-12 21:08:17,165 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Derek/Dropbox/Projects/Jinx/Server/Jinx/src/test/resources
+2016-02-12 21:11:31,903 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-12 21:11:31,909 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-02-12 21:11:31,920 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 24 resources
+2016-02-12 21:11:31,924 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-12 21:11:31,924 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Derek/Dropbox/Projects/Jinx/Server/Jinx/src/test/resources

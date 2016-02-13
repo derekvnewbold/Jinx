@@ -1,0 +1,26 @@
+package com.jinx.offer;
+
+public class Content {
+	private long id;
+	private String tvImgURL;
+	private String mobileImgURL;
+	
+	public long getId() {
+		return id;
+	}
+	public void setId(long id) {
+		this.id = id;
+	}
+	public String getTvImgURL() {
+		return tvImgURL;
+	}
+	public void setTvImgURL(String tvImgURL) {
+		this.tvImgURL = tvImgURL;
+	}
+	public String getMobileImgURL() {
+		return mobileImgURL;
+	}
+	public void setMobileImgURL(String mobileImgURL) {
+		this.mobileImgURL = mobileImgURL;
+	}
+}

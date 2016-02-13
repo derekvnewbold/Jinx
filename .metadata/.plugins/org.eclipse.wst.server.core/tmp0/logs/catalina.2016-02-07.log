@@ -1,0 +1,305 @@
+07-Feb-2016 00:03:44.278 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+07-Feb-2016 00:03:48.254 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+07-Feb-2016 00:05:45.686 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+07-Feb-2016 00:05:49.179 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+07-Feb-2016 00:09:44.062 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+07-Feb-2016 00:09:48.048 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+07-Feb-2016 00:13:43.751 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+07-Feb-2016 00:13:47.749 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+07-Feb-2016 00:17:31.850 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 00:17:31.906 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+07-Feb-2016 00:17:31.915 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 00:17:31.918 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 00:17:36.570 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+07-Feb-2016 00:17:36.571 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+07-Feb-2016 00:17:36.696 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 129 ms
+07-Feb-2016 00:17:37.024 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 00:17:37.153 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 112 ms
+07-Feb-2016 00:17:37.165 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+07-Feb-2016 00:17:37.165 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+07-Feb-2016 00:17:37.170 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/Derek/Dropbox/Projects/Jinx/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/Catalina/localhost/ROOT.xml
+07-Feb-2016 00:17:37.196 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'source' to 'org.eclipse.jst.jee.server:Jinx' did not find a matching property.
+07-Feb-2016 00:17:38.601 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Feb-2016 00:17:42.143 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/Derek/Dropbox/Projects/Jinx/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/Catalina/localhost/ROOT.xml has finished in 4,972 ms
+07-Feb-2016 00:17:42.147 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 00:26:06.510 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+07-Feb-2016 00:26:10.345 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+07-Feb-2016 00:26:29.359 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 00:26:29.412 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+07-Feb-2016 00:26:29.421 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 00:26:29.422 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 00:27:26.658 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+07-Feb-2016 00:27:26.659 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+07-Feb-2016 00:27:26.779 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 123 ms
+07-Feb-2016 00:27:27.126 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 00:27:27.260 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 112 ms
+07-Feb-2016 00:27:27.272 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+07-Feb-2016 00:27:27.272 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+07-Feb-2016 00:27:27.277 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/Derek/Dropbox/Projects/Jinx/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/Catalina/localhost/ROOT.xml
+07-Feb-2016 00:27:27.303 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'source' to 'org.eclipse.jst.jee.server:Jinx' did not find a matching property.
+07-Feb-2016 00:27:28.537 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Feb-2016 00:27:31.722 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/Derek/Dropbox/Projects/Jinx/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/Catalina/localhost/ROOT.xml has finished in 4,445 ms
+07-Feb-2016 00:27:31.727 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 00:27:56.146 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 00:27:56.199 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+07-Feb-2016 00:27:56.214 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 00:27:56.216 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 00:28:19.968 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+07-Feb-2016 00:28:19.970 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+07-Feb-2016 00:28:20.098 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 131 ms
+07-Feb-2016 00:28:20.442 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 00:28:20.575 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 115 ms
+07-Feb-2016 00:28:20.587 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+07-Feb-2016 00:28:20.587 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+07-Feb-2016 00:28:20.593 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/Derek/Dropbox/Projects/Jinx/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/Catalina/localhost/ROOT.xml
+07-Feb-2016 00:28:20.619 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'source' to 'org.eclipse.jst.jee.server:Jinx' did not find a matching property.
+07-Feb-2016 00:28:22.061 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Feb-2016 00:28:25.691 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/Derek/Dropbox/Projects/Jinx/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/Catalina/localhost/ROOT.xml has finished in 5,097 ms
+07-Feb-2016 00:28:25.695 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 00:29:55.464 INFO [RMI TCP Connection(3)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 00:29:55.517 INFO [RMI TCP Connection(3)-127.0.0.1] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+07-Feb-2016 00:29:55.534 INFO [RMI TCP Connection(3)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 00:29:55.539 INFO [Thread-5] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardService[Catalina]] after stop() had already been called. The second call will be ignored.
+07-Feb-2016 00:29:55.539 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 00:30:08.600 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+07-Feb-2016 00:30:08.601 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+07-Feb-2016 00:30:08.733 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 134 ms
+07-Feb-2016 00:30:09.057 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 00:30:09.189 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 114 ms
+07-Feb-2016 00:30:09.201 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+07-Feb-2016 00:30:09.201 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+07-Feb-2016 00:30:09.207 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/Derek/Dropbox/Projects/Jinx/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/Catalina/localhost/ROOT.xml
+07-Feb-2016 00:30:09.233 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'source' to 'org.eclipse.jst.jee.server:Jinx' did not find a matching property.
+07-Feb-2016 00:30:10.364 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Feb-2016 00:30:13.573 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/Derek/Dropbox/Projects/Jinx/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/Catalina/localhost/ROOT.xml has finished in 4,366 ms
+07-Feb-2016 00:30:13.578 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 00:31:55.739 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 00:31:55.793 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+07-Feb-2016 00:31:55.808 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 00:31:55.810 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 00:32:06.470 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+07-Feb-2016 00:32:06.472 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+07-Feb-2016 00:32:06.610 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 142 ms
+07-Feb-2016 00:32:06.968 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 00:32:07.095 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 109 ms
+07-Feb-2016 00:32:07.107 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+07-Feb-2016 00:32:07.107 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+07-Feb-2016 00:32:07.112 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/Derek/Dropbox/Projects/Jinx/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/Catalina/localhost/ROOT.xml
+07-Feb-2016 00:32:07.138 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'source' to 'org.eclipse.jst.jee.server:Jinx' did not find a matching property.
+07-Feb-2016 00:32:08.528 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Feb-2016 00:32:11.695 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/Derek/Dropbox/Projects/Jinx/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/Catalina/localhost/ROOT.xml has finished in 4,582 ms
+07-Feb-2016 00:32:11.701 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 00:32:43.877 INFO [RMI TCP Connection(3)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 00:32:43.928 INFO [RMI TCP Connection(3)-127.0.0.1] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+07-Feb-2016 00:32:43.947 INFO [RMI TCP Connection(3)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 00:32:43.952 INFO [Thread-5] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardService[Catalina]] after stop() had already been called. The second call will be ignored.
+07-Feb-2016 00:32:43.952 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 00:33:17.013 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+07-Feb-2016 00:33:17.014 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+07-Feb-2016 00:33:17.136 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 124 ms
+07-Feb-2016 00:33:17.469 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 00:33:17.601 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 114 ms
+07-Feb-2016 00:33:17.613 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+07-Feb-2016 00:33:17.613 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+07-Feb-2016 00:33:17.618 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/Derek/Dropbox/Projects/Jinx/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/Catalina/localhost/ROOT.xml
+07-Feb-2016 00:33:17.645 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'source' to 'org.eclipse.jst.jee.server:Jinx' did not find a matching property.
+07-Feb-2016 00:33:18.789 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Feb-2016 00:33:22.040 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/Derek/Dropbox/Projects/Jinx/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/Catalina/localhost/ROOT.xml has finished in 4,422 ms
+07-Feb-2016 00:33:22.044 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 16:08:09.359 INFO [RMI TCP Connection(76)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 16:08:09.415 INFO [RMI TCP Connection(76)-127.0.0.1] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+07-Feb-2016 16:08:09.475 INFO [RMI TCP Connection(76)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 16:08:09.492 INFO [Thread-5] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardService[Catalina]] after stop() had already been called. The second call will be ignored.
+07-Feb-2016 16:08:09.493 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 16:08:12.995 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+07-Feb-2016 16:08:12.997 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+07-Feb-2016 16:08:13.260 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 268 ms
+07-Feb-2016 16:08:13.863 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 16:08:14.086 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 201 ms
+07-Feb-2016 16:08:14.103 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+07-Feb-2016 16:08:14.104 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+07-Feb-2016 16:08:14.109 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/Derek/Dropbox/Projects/Jinx/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/Catalina/localhost/ROOT.xml
+07-Feb-2016 16:08:14.149 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'source' to 'org.eclipse.jst.jee.server:Jinx' did not find a matching property.
+07-Feb-2016 16:08:16.227 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Feb-2016 16:08:19.790 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/Derek/Dropbox/Projects/Jinx/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/Catalina/localhost/ROOT.xml has finished in 5,680 ms
+07-Feb-2016 16:08:19.796 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 21:55:08.717 INFO [RMI TCP Connection(28)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 21:55:08.770 INFO [RMI TCP Connection(28)-127.0.0.1] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+07-Feb-2016 21:55:08.786 INFO [RMI TCP Connection(28)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 21:55:08.795 INFO [Thread-5] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardService[Catalina]] after stop() had already been called. The second call will be ignored.
+07-Feb-2016 21:55:08.795 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 21:55:10.988 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+07-Feb-2016 21:55:10.989 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+07-Feb-2016 21:55:11.112 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 126 ms
+07-Feb-2016 21:55:11.443 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 21:55:11.574 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 113 ms
+07-Feb-2016 21:55:11.586 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+07-Feb-2016 21:55:11.586 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+07-Feb-2016 21:55:11.591 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/Derek/Dropbox/Projects/Jinx/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/Catalina/localhost/ROOT.xml
+07-Feb-2016 21:55:11.616 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'source' to 'org.eclipse.jst.jee.server:Jinx' did not find a matching property.
+07-Feb-2016 21:55:12.765 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Feb-2016 21:55:16.125 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/Derek/Dropbox/Projects/Jinx/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/Catalina/localhost/ROOT.xml has finished in 4,534 ms
+07-Feb-2016 21:55:16.129 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 21:57:56.325 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+07-Feb-2016 21:57:59.864 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+07-Feb-2016 21:58:51.239 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 21:58:51.290 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+07-Feb-2016 21:58:51.301 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 21:58:51.304 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 21:58:53.465 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+07-Feb-2016 21:58:53.466 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+07-Feb-2016 21:58:53.592 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 128 ms
+07-Feb-2016 21:58:53.911 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 21:58:54.046 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 115 ms
+07-Feb-2016 21:58:54.057 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+07-Feb-2016 21:58:54.057 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+07-Feb-2016 21:58:54.061 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/Derek/Dropbox/Projects/Jinx/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/Catalina/localhost/ROOT.xml
+07-Feb-2016 21:58:54.088 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'source' to 'org.eclipse.jst.jee.server:Jinx' did not find a matching property.
+07-Feb-2016 21:58:55.208 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Feb-2016 21:58:58.460 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/Derek/Dropbox/Projects/Jinx/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/Catalina/localhost/ROOT.xml has finished in 4,399 ms
+07-Feb-2016 21:58:58.465 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 21:59:14.552 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 21:59:14.607 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+07-Feb-2016 21:59:14.619 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 21:59:14.620 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 21:59:16.584 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+07-Feb-2016 21:59:16.585 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+07-Feb-2016 21:59:16.709 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 126 ms
+07-Feb-2016 21:59:17.057 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 21:59:17.188 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 113 ms
+07-Feb-2016 21:59:17.200 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+07-Feb-2016 21:59:17.200 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+07-Feb-2016 21:59:17.205 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/Derek/Dropbox/Projects/Jinx/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/Catalina/localhost/ROOT.xml
+07-Feb-2016 21:59:17.231 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'source' to 'org.eclipse.jst.jee.server:Jinx' did not find a matching property.
+07-Feb-2016 21:59:18.378 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Feb-2016 21:59:21.568 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/Derek/Dropbox/Projects/Jinx/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/Catalina/localhost/ROOT.xml has finished in 4,363 ms
+07-Feb-2016 21:59:21.573 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 22:00:10.216 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 22:00:10.269 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+07-Feb-2016 22:00:10.282 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 22:00:10.284 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 22:00:13.002 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+07-Feb-2016 22:00:13.004 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+07-Feb-2016 22:00:13.129 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 128 ms
+07-Feb-2016 22:00:13.455 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 22:00:13.586 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 113 ms
+07-Feb-2016 22:00:13.598 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+07-Feb-2016 22:00:13.598 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+07-Feb-2016 22:00:13.603 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/Derek/Dropbox/Projects/Jinx/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/Catalina/localhost/ROOT.xml
+07-Feb-2016 22:00:13.628 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'source' to 'org.eclipse.jst.jee.server:Jinx' did not find a matching property.
+07-Feb-2016 22:00:14.819 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Feb-2016 22:00:18.288 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/Derek/Dropbox/Projects/Jinx/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/Catalina/localhost/ROOT.xml has finished in 4,685 ms
+07-Feb-2016 22:00:18.292 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 22:01:07.308 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 22:01:07.359 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+07-Feb-2016 22:01:07.371 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 22:01:07.373 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 22:01:10.220 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+07-Feb-2016 22:01:10.221 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+07-Feb-2016 22:01:10.362 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 143 ms
+07-Feb-2016 22:01:10.787 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 22:01:10.922 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 117 ms
+07-Feb-2016 22:01:10.935 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+07-Feb-2016 22:01:10.935 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+07-Feb-2016 22:01:10.940 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/Derek/Dropbox/Projects/Jinx/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/Catalina/localhost/ROOT.xml
+07-Feb-2016 22:01:10.967 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'source' to 'org.eclipse.jst.jee.server:Jinx' did not find a matching property.
+07-Feb-2016 22:01:12.255 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Feb-2016 22:01:15.858 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/Derek/Dropbox/Projects/Jinx/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/Catalina/localhost/ROOT.xml has finished in 4,918 ms
+07-Feb-2016 22:01:15.862 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 22:03:23.917 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+07-Feb-2016 22:03:27.629 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+07-Feb-2016 22:09:52.352 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+07-Feb-2016 22:09:55.863 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+07-Feb-2016 22:13:19.538 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+07-Feb-2016 22:13:22.958 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+07-Feb-2016 22:13:33.686 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+07-Feb-2016 22:13:36.895 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+07-Feb-2016 22:15:45.238 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+07-Feb-2016 22:15:48.683 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+07-Feb-2016 22:16:09.390 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+07-Feb-2016 22:16:12.463 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+07-Feb-2016 22:16:43.865 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+07-Feb-2016 22:16:46.941 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+07-Feb-2016 22:17:29.208 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+07-Feb-2016 22:17:32.445 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+07-Feb-2016 22:18:25.249 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+07-Feb-2016 22:18:28.323 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+07-Feb-2016 22:20:14.997 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+07-Feb-2016 22:20:18.370 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+07-Feb-2016 22:21:11.471 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+07-Feb-2016 22:21:14.623 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+07-Feb-2016 22:23:11.417 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+07-Feb-2016 22:23:14.706 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+07-Feb-2016 22:31:48.818 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+07-Feb-2016 22:31:52.211 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+07-Feb-2016 22:33:49.506 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+07-Feb-2016 22:33:52.913 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+07-Feb-2016 22:35:17.853 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+07-Feb-2016 22:35:20.987 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+07-Feb-2016 22:36:35.396 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+07-Feb-2016 22:36:38.887 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+07-Feb-2016 22:37:21.064 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+07-Feb-2016 22:37:24.025 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+07-Feb-2016 22:46:41.549 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+07-Feb-2016 22:46:42.691 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Exception starting Context with name []
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3746)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:292)
+	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5528)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1377)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1349)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.util.ConcurrentModificationException
+	at java.util.ArrayList$Itr.checkForComodification(ArrayList.java:901)
+	at java.util.ArrayList$Itr.next(ArrayList.java:851)
+	at ch.qos.logback.classic.Logger.recursiveReset(Logger.java:344)
+	at ch.qos.logback.classic.Logger.recursiveReset(Logger.java:345)
+	at ch.qos.logback.classic.LoggerContext.reset(LoggerContext.java:213)
+	at ch.qos.logback.classic.LoggerContext.stop(LoggerContext.java:336)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.stopAndReset(LogbackLoggingSystem.java:173)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadDefaults(LogbackLoggingSystem.java:118)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:74)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:49)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:106)
+	at org.springframework.boot.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:262)
+	at org.springframework.boot.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:233)
+	at org.springframework.boot.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:200)
+	at org.springframework.boot.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:163)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:136)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:119)
+	at org.springframework.boot.context.event.EventPublishingRunListener.publishEvent(EventPublishingRunListener.java:111)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:65)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.createAndRefreshContext(SpringApplication.java:330)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.context.web.SpringBootServletInitializer.run(SpringBootServletInitializer.java:149)
+	at org.springframework.boot.context.web.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:129)
+	at org.springframework.boot.context.web.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:85)
+	at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:175)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5156)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 8 more
+
+07-Feb-2016 22:46:42.692 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+07-Feb-2016 22:47:27.336 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 22:47:27.391 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+07-Feb-2016 22:47:27.393 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 22:47:27.395 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 22:47:30.276 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+07-Feb-2016 22:47:30.277 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+07-Feb-2016 22:47:30.399 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 125 ms
+07-Feb-2016 22:47:30.732 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 22:47:30.865 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 115 ms
+07-Feb-2016 22:47:30.878 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+07-Feb-2016 22:47:30.878 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+07-Feb-2016 22:47:30.882 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /Users/Derek/Dropbox/Projects/Jinx/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/Catalina/localhost/ROOT.xml
+07-Feb-2016 22:47:30.908 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'source' to 'org.eclipse.jst.jee.server:Jinx' did not find a matching property.
+07-Feb-2016 22:47:32.119 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Feb-2016 22:47:35.579 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /Users/Derek/Dropbox/Projects/Jinx/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/Catalina/localhost/ROOT.xml has finished in 4,697 ms
+07-Feb-2016 22:47:35.584 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]
+07-Feb-2016 22:48:50.131 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+07-Feb-2016 22:48:53.382 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed

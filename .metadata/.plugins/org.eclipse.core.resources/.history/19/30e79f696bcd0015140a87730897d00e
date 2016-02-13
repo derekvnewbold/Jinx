@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<script src="/js/jquery-2.2.0.js"></script>
+		<script src="/js/url.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="/css/base.css">
+		
+		<script>
+			var currentId = 0;
+			
+			function updateOffer() {
+				$.ajax({
+			        url: "/offer/current/" + $.urlParam('locationId')
+			    }).then(function(data) {
+		    		currentId = data.id
+		    		$('#content-img').attr("src", data.content.tvURL);
+		    		if(data.remainingTime>0) {
+		    			setTimeout(updateOffer, (data.remainingTime+1)*1000);
+		    		} else {
+		    			updateOffer();
+			    	}
+			    });
+				// Handle failure to load and set a timer to retry
+			}
+			
+			$(document).ready(function() {
+			    updateOffer();
+				//setInterval(updateOffer, 5000);
+			});
+		</script>
+	</head>
+
+	<body>
+		<div>
+            <img id="content-img" width="100%" height="100%"/>
+        </div>
+	</body>
+</html>

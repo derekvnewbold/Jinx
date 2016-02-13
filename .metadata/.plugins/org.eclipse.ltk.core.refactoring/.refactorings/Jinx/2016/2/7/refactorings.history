@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.jinx.controllers&apos; to &apos;com.jinx.offer&apos;&#x0A;- Original project: &apos;Jinx&apos;&#x0A;- Original element: &apos;Jinx/src/main/java/com.jinx.controllers&apos;&#x0A;- Renamed element: &apos;Jinx/src/main/java/com.jinx.offer&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.jinx.controllers&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;com.jinx.controllers" name="com.jinx.offer" qualified="false" references="true" stamp="1454811657612" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65B690951C6EE68200D5174E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B690941C6EE68200D5174E /* AppDelegate.swift */; };
+		65B690971C6EE68200D5174E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B690961C6EE68200D5174E /* ViewController.swift */; };
+		65B6909A1C6EE68200D5174E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B690981C6EE68200D5174E /* Main.storyboard */; };
+		65B6909D1C6EE68200D5174E /* Jinx.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65B6909B1C6EE68200D5174E /* Jinx.xcdatamodeld */; };
+		65B6909F1C6EE68200D5174E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65B6909E1C6EE68200D5174E /* Assets.xcassets */; };
+		65B690A21C6EE68200D5174E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B690A01C6EE68200D5174E /* LaunchScreen.storyboard */; };
+		65B690AD1C6EE68200D5174E /* JinxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B690AC1C6EE68200D5174E /* JinxTests.swift */; };
+		65B690B81C6EE68200D5174E /* JinxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B690B71C6EE68200D5174E /* JinxUITests.swift */; };
+		65D876FE1C6EE96C005DA7D3 /* JinxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D876FD1C6EE96C005DA7D3 /* JinxSDK.framework */; };
+		65D876FF1C6EE96C005DA7D3 /* JinxSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 65D876FD1C6EE96C005DA7D3 /* JinxSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65B690A91C6EE68200D5174E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65B690891C6EE68200D5174E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65B690901C6EE68200D5174E;
+			remoteInfo = Jinx;
+		};
+		65B690B41C6EE68200D5174E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65B690891C6EE68200D5174E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65B690901C6EE68200D5174E;
+			remoteInfo = Jinx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		653081AD1C6EE7BD00582455 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				65D876FF1C6EE96C005DA7D3 /* JinxSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		65B690911C6EE68200D5174E /* Jinx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jinx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B690941C6EE68200D5174E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65B690961C6EE68200D5174E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65B690991C6EE68200D5174E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65B6909C1C6EE68200D5174E /* Jinx.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jinx.xcdatamodel; sourceTree = "<group>"; };
+		65B6909E1C6EE68200D5174E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65B690A11C6EE68200D5174E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65B690A31C6EE68200D5174E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65B690A81C6EE68200D5174E /* JinxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JinxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B690AC1C6EE68200D5174E /* JinxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JinxTests.swift; sourceTree = "<group>"; };
+		65B690AE1C6EE68200D5174E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65B690B31C6EE68200D5174E /* JinxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JinxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B690B71C6EE68200D5174E /* JinxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JinxUITests.swift; sourceTree = "<group>"; };
+		65B690B91C6EE68200D5174E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65D876FD1C6EE96C005DA7D3 /* JinxSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = JinxSDK.framework; path = "/Users/Derek/Library/Developer/Xcode/DerivedData/Jinx-fatfgkrimeuyvhgehjndnbhponxw/Build/Products/Debug-iphoneos/JinxSDK.framework"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65B6908E1C6EE68200D5174E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D876FE1C6EE96C005DA7D3 /* JinxSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B690A51C6EE68200D5174E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B690B01C6EE68200D5174E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65B690881C6EE68200D5174E = {
+			isa = PBXGroup;
+			children = (
+				65D876FD1C6EE96C005DA7D3 /* JinxSDK.framework */,
+				65B690931C6EE68200D5174E /* Jinx */,
+				65B690AB1C6EE68200D5174E /* JinxTests */,
+				65B690B61C6EE68200D5174E /* JinxUITests */,
+				65B690921C6EE68200D5174E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65B690921C6EE68200D5174E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65B690911C6EE68200D5174E /* Jinx.app */,
+				65B690A81C6EE68200D5174E /* JinxTests.xctest */,
+				65B690B31C6EE68200D5174E /* JinxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65B690931C6EE68200D5174E /* Jinx */ = {
+			isa = PBXGroup;
+			children = (
+				65B690941C6EE68200D5174E /* AppDelegate.swift */,
+				65B690961C6EE68200D5174E /* ViewController.swift */,
+				65B690981C6EE68200D5174E /* Main.storyboard */,
+				65B6909E1C6EE68200D5174E /* Assets.xcassets */,
+				65B690A01C6EE68200D5174E /* LaunchScreen.storyboard */,
+				65B690A31C6EE68200D5174E /* Info.plist */,
+				65B6909B1C6EE68200D5174E /* Jinx.xcdatamodeld */,
+			);
+			path = Jinx;
+			sourceTree = "<group>";
+		};
+		65B690AB1C6EE68200D5174E /* JinxTests */ = {
+			isa = PBXGroup;
+			children = (
+				65B690AC1C6EE68200D5174E /* JinxTests.swift */,
+				65B690AE1C6EE68200D5174E /* Info.plist */,
+			);
+			path = JinxTests;
+			sourceTree = "<group>";
+		};
+		65B690B61C6EE68200D5174E /* JinxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65B690B71C6EE68200D5174E /* JinxUITests.swift */,
+				65B690B91C6EE68200D5174E /* Info.plist */,
+			);
+			path = JinxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65B690901C6EE68200D5174E /* Jinx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65B690BC1C6EE68200D5174E /* Build configuration list for PBXNativeTarget "Jinx" */;
+			buildPhases = (
+				65B6908D1C6EE68200D5174E /* Sources */,
+				65B6908E1C6EE68200D5174E /* Frameworks */,
+				65B6908F1C6EE68200D5174E /* Resources */,
+				653081AD1C6EE7BD00582455 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jinx;
+			productName = Jinx;
+			productReference = 65B690911C6EE68200D5174E /* Jinx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65B690A71C6EE68200D5174E /* JinxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65B690BF1C6EE68200D5174E /* Build configuration list for PBXNativeTarget "JinxTests" */;
+			buildPhases = (
+				65B690A41C6EE68200D5174E /* Sources */,
+				65B690A51C6EE68200D5174E /* Frameworks */,
+				65B690A61C6EE68200D5174E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65B690AA1C6EE68200D5174E /* PBXTargetDependency */,
+			);
+			name = JinxTests;
+			productName = JinxTests;
+			productReference = 65B690A81C6EE68200D5174E /* JinxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65B690B21C6EE68200D5174E /* JinxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65B690C21C6EE68200D5174E /* Build configuration list for PBXNativeTarget "JinxUITests" */;
+			buildPhases = (
+				65B690AF1C6EE68200D5174E /* Sources */,
+				65B690B01C6EE68200D5174E /* Frameworks */,
+				65B690B11C6EE68200D5174E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65B690B51C6EE68200D5174E /* PBXTargetDependency */,
+			);
+			name = JinxUITests;
+			productName = JinxUITests;
+			productReference = 65B690B31C6EE68200D5174E /* JinxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65B690891C6EE68200D5174E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jinx Interactive";
+				TargetAttributes = {
+					65B690901C6EE68200D5174E = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = HR5B3X5WC3;
+					};
+					65B690A71C6EE68200D5174E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 65B690901C6EE68200D5174E;
+					};
+					65B690B21C6EE68200D5174E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 65B690901C6EE68200D5174E;
+					};
+				};
+			};
+			buildConfigurationList = 65B6908C1C6EE68200D5174E /* Build configuration list for PBXProject "Jinx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65B690881C6EE68200D5174E;
+			productRefGroup = 65B690921C6EE68200D5174E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65B690901C6EE68200D5174E /* Jinx */,
+				65B690A71C6EE68200D5174E /* JinxTests */,
+				65B690B21C6EE68200D5174E /* JinxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65B6908F1C6EE68200D5174E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B690A21C6EE68200D5174E /* LaunchScreen.storyboard in Resources */,
+				65B6909F1C6EE68200D5174E /* Assets.xcassets in Resources */,
+				65B6909A1C6EE68200D5174E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B690A61C6EE68200D5174E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B690B11C6EE68200D5174E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65B6908D1C6EE68200D5174E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B6909D1C6EE68200D5174E /* Jinx.xcdatamodeld in Sources */,
+				65B690971C6EE68200D5174E /* ViewController.swift in Sources */,
+				65B690951C6EE68200D5174E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B690A41C6EE68200D5174E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B690AD1C6EE68200D5174E /* JinxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B690AF1C6EE68200D5174E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B690B81C6EE68200D5174E /* JinxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65B690AA1C6EE68200D5174E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65B690901C6EE68200D5174E /* Jinx */;
+			targetProxy = 65B690A91C6EE68200D5174E /* PBXContainerItemProxy */;
+		};
+		65B690B51C6EE68200D5174E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65B690901C6EE68200D5174E /* Jinx */;
+			targetProxy = 65B690B41C6EE68200D5174E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65B690981C6EE68200D5174E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65B690991C6EE68200D5174E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65B690A01C6EE68200D5174E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65B690A11C6EE68200D5174E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65B690BA1C6EE68200D5174E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65B690BB1C6EE68200D5174E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65B690BD1C6EE68200D5174E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Jinx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinx.Jinx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		65B690BE1C6EE68200D5174E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Jinx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinx.Jinx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		65B690C01C6EE68200D5174E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JinxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinx.JinxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jinx.app/Jinx";
+			};
+			name = Debug;
+		};
+		65B690C11C6EE68200D5174E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JinxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinx.JinxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jinx.app/Jinx";
+			};
+			name = Release;
+		};
+		65B690C31C6EE68200D5174E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JinxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinx.JinxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Jinx;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		65B690C41C6EE68200D5174E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JinxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinx.JinxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Jinx;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65B6908C1C6EE68200D5174E /* Build configuration list for PBXProject "Jinx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65B690BA1C6EE68200D5174E /* Debug */,
+				65B690BB1C6EE68200D5174E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65B690BC1C6EE68200D5174E /* Build configuration list for PBXNativeTarget "Jinx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65B690BD1C6EE68200D5174E /* Debug */,
+				65B690BE1C6EE68200D5174E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65B690BF1C6EE68200D5174E /* Build configuration list for PBXNativeTarget "JinxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65B690C01C6EE68200D5174E /* Debug */,
+				65B690C11C6EE68200D5174E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65B690C21C6EE68200D5174E /* Build configuration list for PBXNativeTarget "JinxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65B690C31C6EE68200D5174E /* Debug */,
+				65B690C41C6EE68200D5174E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		65B6909B1C6EE68200D5174E /* Jinx.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				65B6909C1C6EE68200D5174E /* Jinx.xcdatamodel */,
+			);
+			currentVersion = 65B6909C1C6EE68200D5174E /* Jinx.xcdatamodel */;
+			path = Jinx.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 65B690891C6EE68200D5174E /* Project object */;
+}

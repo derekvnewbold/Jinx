@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<script src="/js/jquery-2.2.0.js"></script>
+		
+		<script>
+			var currentId = 0;
+
+			$.urlParam = function(name){
+			    var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+			    if (results==null){
+			       return null;
+			    }
+			    else{
+			       return results[1] || 0;
+			    }
+			}
+			
+			function updateOffer() {
+				$.ajax({
+			        url: "/offer/current/" + $.urlParam('locationId')
+			    }).then(function(data) {
+		    		currentId = data.id
+		    		$('.content-img').attr("src", data.content.tvImgURL);
+		    		if(data.remainingTime>0) {
+		    			setTimeout(updateOffer, (data.remainingTime+1)*1000);
+		    		} else {
+		    			updateOffer();
+			    	}
+			    });
+			}
+			
+			$(document).ready(function() {
+			    updateOffer();
+				//setInterval(updateOffer, 5000);
+			});
+		</script>
+		
+		<style>
+			body {
+				margin: 0px;
+				padding: 0px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div>
+            <img class="content-img" width="100%" height="100%"/>
+        </div>
+	</body>
+</html>
